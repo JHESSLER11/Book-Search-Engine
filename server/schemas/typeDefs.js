@@ -7,7 +7,7 @@ const typeDefs = gql`
         _id: ID
         username: String
         email: String 
-        bookCount: INT
+        bookCount: Int
         savedBooks: [Book]
     }
 
@@ -29,3 +29,5 @@ const typeDefs = gql`
         me: User
     }
 `
+
+module.exports = typeDefs;
