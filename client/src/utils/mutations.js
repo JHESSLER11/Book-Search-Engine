@@ -31,4 +31,9 @@ export const SAVE_BOOK = qgl`
 `;
 
 export const REMOVE_BOOK = qgl`
+    mutation removeBook($BookId: String!) {
+        removeBook(bookId: $bookId) {
+            
+        }
+    }
 `
